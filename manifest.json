@@ -1,0 +1,19 @@
+{
+  "name": "百度文库paster",
+  "version": "1.0",
+  "description": "百度文库复制粘贴助手   @princehaku http://3haku.net",
+  "background_page": "background.html",
+  "permissions": [
+    "contextMenus", "webRequest", "webRequestBlocking", "tabs", "http://*.wenku.baidu.com/*"
+  ],
+  "browser_action": {
+    "popup": "popup.html",
+    "default_icon": "data/icons/logo.png"
+  },
+  "icons": {
+    "16": "data/icons/logo.png",
+    "48": "data/icons/logo.png",
+    "64": "data/icons/logo.png",
+    "128": "data/icons/logo.png"
+  }
+}
